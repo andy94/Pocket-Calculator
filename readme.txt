@@ -1,5 +1,18 @@
-	Ursache Andrei - 322CA - 29 decembrie 2014
+	Ursache Andrei - 29 decembrie 2014
 
+	----------------------------------------------------------------------------
+	Proiect anul 2, primul semestru, la materia Programarea Orientata pe 
+	Obiecte.
+	Subiect: construirea unui evaluator de expresii folosind patternul Visitor.
+	Limbaj ales: Java
+	
+	############################     ATENTIE !!!    ############################
+	Temele sunt verificate pe VMChecker. Nu incercati sa copiati codul, deoarece
+	VMChecker verifica si sursele existente pe GitHub. In plus, fiecare tema va 
+	ajuta foarte mult daca incercati sa o realizati singuri. Asa ca, daca ai
+	ajuns aici pentru a cauta o tema, iti recomand calduros sa inchizi tab-ul cu 
+	GitHub si sa te apuci singur de ea. Spor!
+	----------------------------------------------------------------------------
 
 	Aspecte generale:
 
@@ -7,7 +20,6 @@
 utilizat Pattern-ul Visitor pentru evaluarea arborelui de parsare. Pa langa 
 clasele din template am creat si unele noi, necesare functionarii programului.
 
-	
 	Ideea generala:
 
 	Programul, prin metoda eval a clasei ExpressionParser, primeste un String ce
@@ -17,7 +29,6 @@ evalueaza recursiv valoarea fiecarui nod din arborele de parsare (incepand de la
 nodul radacina).
 	Asftel, functia eval returneaza valoarea corespunzatoare expresiei (de tip 
 float), in urma aplicarii vizitatorului pe nodul radacina.
-
 
 	Structura programului:
 	
@@ -141,13 +152,6 @@ corecta sau o exceptie in caz contrar.
 			fisierele sursa si, de asemenea, in fisierele javadoc din folderul
 			/doc.
 
-
-	Nota personala:
-	
-		Tema cu un enunt foarte scurt, spre deosebire de kilometrii enunturilor
-	anterioare. La prima vedere nu am inteles exact cum se implementeaza,
-	cu toate ca mi se parea destul de simpla ideea. Dupa studierea referintelor 
-	am reusit sa imi dau seama cum se realizeaza. Termen de lucru: o zi.
 	
 	Andrei Ursache
 
